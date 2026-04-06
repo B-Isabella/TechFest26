@@ -8,12 +8,21 @@
 
 config_version=5
 
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
 [application]
 
 config/name="Tech Fest '26"
-run/main_scene="uid://id8dxax28a14"
-config/features=PackedStringArray("4.4", "GL Compatibility")
+run/main_scene="uid://bu54xn2iohv41"
+config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=780
 
 [input]
 
