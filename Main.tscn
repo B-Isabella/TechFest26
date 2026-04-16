@@ -1,8 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://bu54xn2iohv41"]
+[gd_scene format=3 uid="uid://bu54xn2iohv41"]
 
 [ext_resource type="PackedScene" uid="uid://cp80iqahrnb1l" path="res://Player.tscn" id="1_glv2v"]
+[ext_resource type="PackedScene" uid="uid://cw7rry7axgfvc" path="res://trash_can.tscn" id="2_uu6xs"]
+[ext_resource type="PackedScene" uid="uid://boar6a4vsmo14" path="res://world_border.tscn" id="3_r0du0"]
 
-[node name="Main" type="Node2D"]
+[node name="Main" type="Node2D" unique_id=237268754]
 
-[node name="Player" parent="." instance=ExtResource("1_glv2v")]
+[node name="Player" parent="." unique_id=843679676 instance=ExtResource("1_glv2v")]
 position = Vector2(585, 340)
+
+[node name="TrashCan" parent="." unique_id=1520228626 instance=ExtResource("2_uu6xs")]
+position = Vector2(1233, 727)
+scale = Vector2(0.1, 0.1)
+
+[node name="border" parent="." unique_id=2145763945 instance=ExtResource("3_r0du0")]
