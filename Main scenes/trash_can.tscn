@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cw7rry7axgfvc"]
 
-[ext_resource type="Texture2D" uid="uid://ryqi4450qwiy" path="res://zafacon_lol.png" id="1_bgvmr"]
+[ext_resource type="Texture2D" uid="uid://ryqi4450qwiy" path="res://Objects/zafacon_lol.png" id="1_bgvmr"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_alpy1"]
 radius = 285.0

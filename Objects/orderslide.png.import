@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ryqi4450qwiy"
-path="res://.godot/imported/zafacon_lol.png-1b991ece9200de98ca2c7fdead4cea3c.ctex"
+uid="uid://dety8qqdy2ug4"
+path="res://.godot/imported/orderslide.png-a9270d7132435461a8c112a7a6a3e4e2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://zafacon_lol.png"
-dest_files=["res://.godot/imported/zafacon_lol.png-1b991ece9200de98ca2c7fdead4cea3c.ctex"]
+source_file="res://Objects/orderslide.png"
+dest_files=["res://.godot/imported/orderslide.png-a9270d7132435461a8c112a7a6a3e4e2.ctex"]
 
 [params]
 

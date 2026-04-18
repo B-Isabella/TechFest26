@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://bu54xn2iohv41"]
+
+[ext_resource type="PackedScene" uid="uid://ctf11hh778wib" path="res://Main scenes/orderslide.tscn" id="1_0vo6h"]
+[ext_resource type="PackedScene" uid="uid://xpo3jhl8w5o1" path="res://Main scenes/computer.tscn" id="2_3qubi"]
+[ext_resource type="PackedScene" uid="uid://cw7rry7axgfvc" path="res://Main scenes/trash_can.tscn" id="3_qwlc1"]
+[ext_resource type="PackedScene" uid="uid://cp80iqahrnb1l" path="res://MC/Player.tscn" id="4_ujdmg"]
+[ext_resource type="PackedScene" uid="uid://cfsvikge0ix3d" path="res://Main scenes/boundary.tscn" id="5_jc2e4"]
+
+[node name="Main" type="Node2D" unique_id=237268754]
+
+[node name="OrderSlide" parent="." unique_id=1545569953 instance=ExtResource("1_0vo6h")]
+position = Vector2(612, 41)
+scale = Vector2(0.6, 0.6)
+
+[node name="Computer" parent="." unique_id=929156832 instance=ExtResource("2_3qubi")]
+position = Vector2(948, 240.00003)
+scale = Vector2(0.118, 0.118)
+
+[node name="TrashCan" parent="." unique_id=1520228626 instance=ExtResource("3_qwlc1")]
+position = Vector2(1222, 720)
+scale = Vector2(0.13, 0.13)
+
+[node name="Player" parent="." unique_id=843679676 instance=ExtResource("4_ujdmg")]
+position = Vector2(585, 340)
+scale = Vector2(1.3, 1.3)
+
+[node name="WorldBorder" parent="." unique_id=138801010 instance=ExtResource("5_jc2e4")]
