@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cw7rry7axgfvc"]
+
+[ext_resource type="Texture2D" uid="uid://ryqi4450qwiy" path="res://Objects/zafacon_lol.png" id="1_bgvmr"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_alpy1"]
+radius = 285.0
+height = 778.0
+
+[node name="Node2D" type="Node2D" unique_id=1520228626]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=931971760]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=59288799]
+texture = ExtResource("1_bgvmr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1106207032]
+position = Vector2(2, -10)
+shape = SubResource("CapsuleShape2D_alpy1")
