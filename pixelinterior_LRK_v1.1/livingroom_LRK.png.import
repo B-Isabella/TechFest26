@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cbhtjrl3d1y5s"
-path="res://.godot/imported/sprite_3_3.png-a7862a87596855933180495047c77c34.ctex"
+uid="uid://crrhd55p0wonj"
+path="res://.godot/imported/livingroom_LRK.png-9f506b9c36f49f07d4de2d257a1bc8ab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprite_3_3.png"
-dest_files=["res://.godot/imported/sprite_3_3.png-a7862a87596855933180495047c77c34.ctex"]
+source_file="res://pixelinterior_LRK_v1.1/livingroom_LRK.png"
+dest_files=["res://.godot/imported/livingroom_LRK.png-9f506b9c36f49f07d4de2d257a1bc8ab.ctex"]
 
 [params]
 
